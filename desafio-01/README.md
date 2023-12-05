@@ -1,10 +1,10 @@
 # 🚀 Desafío 1 - Introducción a Bases de Datos
 
-Desafío para validar conocimientos básicos de SQL y Base de Datos usando PostgreSQL. El desafío queda explicado en este archivo PDF y a continuación tenemos el desarrollo.
+Desafío para validar conocimientos básicos de SQL y Base de Datos usando PostgreSQL. El desafío queda explicado en [este archivo PDF](https://github.com/felipejoq/desafios-sql-postgres-db/blob/main/desafio-01/01-intro-base-de-datos.pdf?raw=true) y a continuación tenemos el desarrollo.
 
 ## 📹 Video explicativo del desafío en práctica
 
-El desafío queda desarrollado de forma práctica en este video: [Desafío 1 - Introducción a Bases de Datos]()
+El desafío queda desarrollado de forma práctica en este video ✅ [Desafío 1 - Introducción a Bases de Datos](https://youtu.be/fQsNY8sUD6M)
 
 ## 👨‍💻 Desarrollo del desafío
 
