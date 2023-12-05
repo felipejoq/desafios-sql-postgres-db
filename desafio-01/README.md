@@ -6,6 +6,13 @@ Desafío para validar conocimientos básicos de SQL y Base de Datos usando Postg
 
 El desafío queda desarrollado de forma práctica en este video ✅ [Desafío 1 - Introducción a Bases de Datos](https://youtu.be/fQsNY8sUD6M)
 
+<a href="https://youtu.be/fQsNY8sUD6M">
+<image
+    src="https://github.com/felipejoq/desafios-sql-postgres-db/assets/35277450/eb8455b6-8e85-46a3-8db9-c24c7b364006"
+    alt="Primer desafío SQL y Postgres"
+/>
+</a>
+
 ## 👨‍💻 Desarrollo del desafío
 
 A. Conectarse a una DB de postgres por consola
