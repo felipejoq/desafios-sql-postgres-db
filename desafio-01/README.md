@@ -36,11 +36,13 @@ CREATE DATABASE desafio_felipe_jofre_123;
 ```
 
 3. Crear una tabla llamada clientes:
-a. Con una columna llamada email de tipo varchar(50).
-b. Una columna llamada nombre de tipo varchar sin limitación.
-c. Una columna llamada teléfono de tipo varchar(16).
-d. Un campo llamado empresa de tipo varchar(50).
-e. Una columna de tipo smallint, para indicar la prioridad del cliente. Ahí se debe ingresar un valor entre 1 y 10, donde 10 es más prioritario.
+   
+* Con una columna llamada email de tipo varchar(50).
+* Una columna llamada nombre de tipo varchar sin limitación.
+* Una columna llamada teléfono de tipo varchar(16).
+* Un campo llamado empresa de tipo varchar(50).
+* Una columna de tipo smallint, para indicar la prioridad del cliente.
+    * Ahí se debe ingresar un valor entre 1 y 10, donde 10 es más prioritario.
 
 ```sql
 CREATE TABLE clientes (
