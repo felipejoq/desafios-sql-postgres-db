@@ -1,5 +1,7 @@
 
+-- Crea la base de datos "name_database"
 CREATE DATABASE name_database;
+
 -- selecciona la base de datos: \c name_database
 
 -- crea la tabla "clientes"
