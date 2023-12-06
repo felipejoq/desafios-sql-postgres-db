@@ -46,11 +46,12 @@ CREATE DATABASE desafio_felipe_jofre_123;
 
 ```sql
 CREATE TABLE clientes (
-    email varchar(50),
-    nombre varchar,
-    telefono varchar(16),
-    empresa varchar(50),
-    prioridad smallint --CHECK (prioridad >= 1 AND prioridad <= 10)
+    id SERIAL PRIMARY KEY,
+    email VARCHAR(50),
+    nombre VARCHAR,
+    telefono VARCHAR(16),
+    empresa VARCHAR(50),
+    prioridad SMALLINT --CHECK (prioridad >= 1 AND prioridad <= 10)
     -- Podríamos agregar un check para solo permitir valores del 1 al 10.
 );
 ```
