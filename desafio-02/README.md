@@ -12,7 +12,7 @@ FROM inscritos;
 ```
 
 ##### Resultado:
-![01-resultado](https://gist.github.com/assets/35277450/a249922f-2249-4904-8eac-21f6d273bfb0)
+![01-resultado](https://github.com/felipejoq/desafios-sql-postgres-db/assets/35277450/da3e7ae0-f1e0-4051-a65f-c9a8504f7aef)
 
 ___
 
@@ -24,7 +24,7 @@ FROM inscritos;
 ```
 
 ##### Resultado:
-![02-resultado](https://gist.github.com/assets/35277450/86c48844-4ed2-45cd-9fbc-9f543cb7a359)
+![02-resultado](https://github.com/felipejoq/desafios-sql-postgres-db/assets/35277450/347aac58-a6e1-43b5-931c-d8b9309ee32c)
 
 ___
 
@@ -37,7 +37,7 @@ ORDER BY fecha ASC;
 ```
 
 ##### Resultado:
-![03-resultado](https://gist.github.com/assets/35277450/c730f970-cbdc-4a4c-8fd2-ceeef8aeb847)
+![03-resultado](https://github.com/felipejoq/desafios-sql-postgres-db/assets/35277450/fd71edd7-f828-4928-85db-330d6eea34ff)
 
 ___
 
@@ -51,7 +51,7 @@ ORDER BY fecha;
 ```
 
 ##### Resultado:
-![04-resultado](https://gist.github.com/assets/35277450/d0f529c9-7f77-4e62-8fb0-ce4e32d42ee7)
+![04-resultado](https://github.com/felipejoq/desafios-sql-postgres-db/assets/35277450/96f46320-0d32-443b-b795-14a3c0a9658d)
 
 ___
 
@@ -64,7 +64,7 @@ GROUP BY fuente;
 ```
 
 ##### Resultado:
-![05-resultado](https://gist.github.com/assets/35277450/edc5de87-2059-4470-8eac-430cc4b79391)
+![05-resultado](https://github.com/felipejoq/desafios-sql-postgres-db/assets/35277450/d01dec4d-ae78-4182-8bd0-566f4f17b34c)
 
 ___
 
@@ -79,7 +79,7 @@ LIMIT 1;
 ```
 
 ##### Resultado:
-![06-resultado](https://gist.github.com/assets/35277450/f411bdc9-9cbf-4c56-99c4-026bad3a42df)
+![06-resultado](https://github.com/felipejoq/desafios-sql-postgres-db/assets/35277450/11104f6f-63ea-4e11-8509-8e7ddb41a30c)
 
 ___
 
@@ -94,7 +94,7 @@ ORDER BY total_inscritos ASC;
 ```
 
 ##### Resultado:
-![07-resultado](https://gist.github.com/assets/35277450/125645ed-96f9-4722-aa54-c489e3673452)
+![07-resultado](https://github.com/felipejoq/desafios-sql-postgres-db/assets/35277450/a43f5662-bb74-48e9-b03e-bc3fc8011319)
 
 ___
 
@@ -107,7 +107,7 @@ GROUP BY fecha;
 ```
 
 ##### Resultado:
-![08-resultado](https://gist.github.com/assets/35277450/432a9e65-ce9a-4edd-bf29-767eae8d2fe4)
+![08-resultado](https://github.com/felipejoq/desafios-sql-postgres-db/assets/35277450/c68f074b-e60f-4e8b-9f37-3e5b1acdd3e1)
 
 ___
 
@@ -122,7 +122,7 @@ ORDER BY SUM(cantidad) DESC;
 ```
 
 ##### Resultado:
-![09-resultado](https://gist.github.com/assets/35277450/13eed52b-b273-403e-be5c-a137d420abdb)
+![09-resultado](https://github.com/felipejoq/desafios-sql-postgres-db/assets/35277450/8590513e-c5a7-4333-9cbd-9f95665f4259)
 
 ___
 
@@ -137,7 +137,7 @@ OFFSET 2;
 ```
 
 ##### Resultado:
-![10-resultado](https://gist.github.com/assets/35277450/8cf11fae-1bc6-4f47-ac49-f3878b4b56a2)
+![10-resultado](https://github.com/felipejoq/desafios-sql-postgres-db/assets/35277450/879888f2-8e5a-418e-a510-f17bb7f65561)
 
 ___
 
