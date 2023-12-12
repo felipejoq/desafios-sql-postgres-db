@@ -5,3 +5,5 @@ En este repositorio encontrará una lista de desafíos SQL con Postgres para pon
 ## 👨‍💻 Lista de desafíos
 
 > 1. [Introducción a SQL y Postgres](https://github.com/felipejoq/desafios-sql-postgres-db/tree/main/desafio-01)
+
+> 2. [SQL: Consultas Agrupadas](https://github.com/felipejoq/desafios-sql-postgres-db/tree/main/desafio-02)
