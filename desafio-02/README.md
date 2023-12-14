@@ -37,7 +37,7 @@ WHERE fecha = (SELECT MIN(fecha) FROM inscritos);
 ```
 
 ##### Resultado:
-![03-resultado](https://github.com/felipejoq/desafios-sql-postgres-db/assets/35277450/fd71edd7-f828-4928-85db-330d6eea34ff)
+![03-resultado](https://github.com/felipejoq/desafios-sql-postgres-db/assets/35277450/fa60f3e4-d32f-4365-8052-2b0810f9f497)
 
 ___
 
@@ -95,7 +95,7 @@ LIMIT 1;
 ```
 
 ##### Resultado:
-![07-resultado](https://github.com/felipejoq/desafios-sql-postgres-db/assets/35277450/a43f5662-bb74-48e9-b03e-bc3fc8011319)
+![07-resultado](https://github.com/felipejoq/desafios-sql-postgres-db/assets/35277450/d1587095-816f-4b96-832a-bacbbf5353f4)
 
 ___
 
