@@ -31,9 +31,9 @@ ___
 3. ¿Cuál o cuáles son los registros de mayor antigüedad?
 
 ```sql
-SELECT *
+SELECT * 
 FROM inscritos
-ORDER BY fecha ASC;
+WHERE fecha = (SELECT MIN(fecha) FROM inscritos);
 ```
 
 ##### Resultado:
@@ -90,7 +90,8 @@ SELECT fecha, fuente, SUM(cantidad) AS total_inscritos
 FROM inscritos
 GROUP BY fecha, fuente
 HAVING fuente = 'Blog'
-ORDER BY total_inscritos ASC;
+ORDER BY total_inscritos DESC
+LIMIT 1;
 ```
 
 ##### Resultado:

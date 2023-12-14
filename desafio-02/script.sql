@@ -38,9 +38,9 @@ SELECT SUM(cantidad) AS total_inscritos
 FROM inscritos;
 
 -- 3. ¿Cuál o cuáles son los registros de mayor antigüedad?
-SELECT *
+SELECT * 
 FROM inscritos
-ORDER BY fecha ASC;
+WHERE fecha = (SELECT MIN(fecha) FROM inscritos);
 
 -- 4. ¿Cuántos inscritos hay por día?
 -- (entendiendo un día como una fecha distinta de ahora en adelante)
@@ -68,7 +68,8 @@ SELECT fecha, fuente, SUM(cantidad) AS total_inscritos
 FROM inscritos
 GROUP BY fecha, fuente
 HAVING fuente = 'Blog'
-ORDER BY total_inscritos ASC;
+ORDER BY total_inscritos DESC
+LIMIT 1;
 
 -- 8. ¿Cuál es el promedio de personas inscritas por día?
 SELECT fecha, ROUND(AVG(cantidad), 2)
