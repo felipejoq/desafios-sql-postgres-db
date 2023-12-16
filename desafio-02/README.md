@@ -130,15 +130,13 @@ ___
 10. ¿Cuál es el promedio diario de personas inscritas a partir del tercer día en adelante, considerando únicamente las fechas posteriores o iguales a la indicada?
 
 ```sql
-SELECT fecha, ROUND(AVG(cantidad), 2) AS promedio
+SELECT AVG(cantidad) AS promedio
 FROM inscritos
-GROUP BY fecha
-ORDER BY fecha ASC
-OFFSET 2;
+WHERE fecha >= (SELECT fecha FROM inscritos ORDER BY fecha OFFSET 2 LIMIT 1);
 ```
 
 ##### Resultado:
-![10-resultado](https://github.com/felipejoq/desafios-sql-postgres-db/assets/35277450/879888f2-8e5a-418e-a510-f17bb7f65561)
+![10-resultado](https://github.com/felipejoq/desafios-sql-postgres-db/assets/35277450/3194e263-483b-4aad-81dd-7b56714bfa31)
 
 ___
 
