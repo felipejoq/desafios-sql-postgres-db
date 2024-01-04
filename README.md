@@ -9,3 +9,5 @@ En este repositorio encontrará una lista de desafíos SQL con Postgres para pon
 > 2. [SQL: Consultas Agrupadas](https://github.com/felipejoq/desafios-sql-postgres-db/tree/main/desafio-02)
 
 > 3. [SQL: Uso de Joins](https://github.com/felipejoq/desafios-sql-postgres-db/tree/main/desafio-03)
+
+> 4. [SQL: Relaciones Many To Many](https://github.com/felipejoq/desafios-sql-postgres-db/tree/main/desafio-04)

@@ -85,6 +85,8 @@ ORDER BY cantidad_tags DESC;
 
 ### Modelo DB 2
 
+![Modelo de base de datos 2](./modelo_2.png)
+
 4. Crea las tablas correspondientes respetando los nombres, tipos, claves primarias y foráneas y tipos de datos.
 
 ```sql
